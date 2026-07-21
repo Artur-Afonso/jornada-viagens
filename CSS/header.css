@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -14,11 +14,11 @@ header {
   height: 64px;
 }
 
-.img-mobile{
+.img-mobile {
   display: block;
 }
 
-.img-desktop{
+.img-desktop {
   display: none;
 }
 
@@ -81,30 +81,30 @@ input[type="checkbox"]:checked ~ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header{
+  .main-header {
     padding: 38px 120px;
   }
 
-  .logo{
+  .logo {
     width: 260px;
     height: 64px;
   }
 
-  .img-desktop{
+  .img-desktop {
     display: block;
   }
 
-  .img-mobile{
+  .img-mobile {
     display: none;
   }
 
-  .navigation-menu a:hover{
+  .navigation-menu a:hover {
     color: var(--primary-color);
   }
 }
 
 @media screen and (min-width: 1920px) {
-  header{
+  .main-header {
     padding: 38px 160x;
   }
 }
